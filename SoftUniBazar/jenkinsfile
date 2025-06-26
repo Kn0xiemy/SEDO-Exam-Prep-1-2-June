@@ -17,7 +17,7 @@ pipeline {
         stage('Setup .NET 6 SDK') {
             steps {
                 // Assumes .NET SDK 6 is already installed on the agent.
-                // You can add a script to install it if needed.
+                
                 bat 'dotnet --version'
             }
         }
